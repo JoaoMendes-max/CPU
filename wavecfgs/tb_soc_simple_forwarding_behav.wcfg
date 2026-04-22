@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Soc_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_Soc" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="4,500.001 ns"></ZoomEndTime>
+      <Cursor1Time time="728.935 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="162"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject type="logic" fp_name="/tb_Soc/dut/u_cpu/i_clk">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_Soc/dut/u_cpu/i_rst">
+      <obj_property name="ElementShortName">i_rst</obj_property>
+      <obj_property name="ObjectShortName">i_rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Soc/dut/u_cpu/u_if_stage/i_pc">
+      <obj_property name="ElementShortName">i_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Soc/dut/u_cpu/u_if_stage/_pc_d1">
+      <obj_property name="ElementShortName">_pc_d1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">_pc_d1[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Soc/dut/u_cpu/u_if_stage/o_pc">
+      <obj_property name="ElementShortName">o_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_Soc/dut/u_cpu/u_pipe_if_id/o_valid">
+      <obj_property name="ElementShortName">o_valid</obj_property>
+      <obj_property name="ObjectShortName">o_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_Soc/dut/u_cpu/u_if_stage/o_valid_r">
+      <obj_property name="ElementShortName">o_valid_r</obj_property>
+      <obj_property name="ObjectShortName">o_valid_r</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Soc/dut/u_cpu/u_if_stage/i_insn">
+      <obj_property name="ElementShortName">i_insn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_insn[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Soc/dut/u_cpu/u_if_stage/o_insn">
+      <obj_property name="ElementShortName">o_insn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_insn[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Soc/dut/u_cpu/u_if_stage/_flush_bubble">
+      <obj_property name="ElementShortName">_flush_bubble[1:0]</obj_property>
+      <obj_property name="ObjectShortName">_flush_bubble[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Soc/dut/u_cpu/u_pipe_if_id/i_pc">
+      <obj_property name="ElementShortName">i_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Soc/dut/u_cpu/u_pipe_if_id/i_insn">
+      <obj_property name="ElementShortName">i_insn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_insn[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Soc/dut/u_cpu/u_pipe_if_id/o_insn">
+      <obj_property name="ElementShortName">o_insn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_insn[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Soc/dut/u_cpu/u_id_stage/o_branch_target">
+      <obj_property name="ElementShortName">o_branch_target[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_branch_target[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_Soc/dut/u_cpu/u_id_stage/o_branch_take">
+      <obj_property name="ElementShortName">o_branch_take</obj_property>
+      <obj_property name="ObjectShortName">o_branch_take</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_Soc/dut/u_cpu/u_ex_stage/o_new_ccn">
+      <obj_property name="ElementShortName">o_new_ccn</obj_property>
+      <obj_property name="ObjectShortName">o_new_ccn</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Soc/dut/u_cpu/u_regfile/_t2">
+      <obj_property name="ElementShortName">_t2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">_t2[15:0]</obj_property>
+   </wvobject>
+</wave_config>
